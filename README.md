@@ -53,4 +53,4 @@ For large-scale dataset, such as `ogbn-arxiv`, run:
 ## 3 Dataset
 When you execute the above code, the PyTorch Geometric package will automatically download the corresponding raw data in the `./data/$dataset/raw/` folder,
 and save the processed data in the `./data/$dataset/processed/` folder. 
-We also provide the raw data through [Google Drive](https://drive.google.com/drive/folders/1ByeLbAhRWVBgQIhfxW3lp_T1T_juhmbb?usp=sharing) in case of data version inconsistency or failure to download due to network problems.
+We also provide the raw data in `data/` folder.
