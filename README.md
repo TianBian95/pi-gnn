@@ -53,4 +53,15 @@ For large-scale dataset, such as `ogbn-arxiv`, run:
 ## 3 Dataset
 When you execute the above code, the PyTorch Geometric package will automatically download the corresponding raw data in the `./data/$dataset/raw/` folder,
 and save the processed data in the `./data/$dataset/processed/` folder. 
-We also provide the raw data in `data/` folder.
+We also provide the raw data in `data/` folder in case of data version inconsistency or failure to download due to network problems.
+
+## Citation
+If you found any part of this code is useful in your research, please consider citing our paper:
+```
+@article{du2023noise,
+    title={Noise-robust Graph Learning by Estimating and Leveraging Pairwise Interactions},
+    author={Du, Xuefeng and Bian, Tian and Rong, Yu and Han, Bo and Liu, Tongliang and Xu, Tingyang and Huang, Wenbing and Li, Yixuan and Huang, Junzhou},
+    journal={Transactions on Machine Learning Research},
+    year={2023}
+}
+```
